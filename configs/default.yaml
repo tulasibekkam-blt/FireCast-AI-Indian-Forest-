@@ -1,0 +1,14 @@
+data:
+  target: ignition
+  time_column: observed_at
+  validation_fraction: 0.2
+model:
+  seed: 42
+  folds: 5
+evaluation:
+  threshold_objective: f1
+  calibration_bins: 10
+deployment:
+  alert_raise_threshold: 0.8
+  alert_clear_threshold: 0.55
+  cooldown_seconds: 300

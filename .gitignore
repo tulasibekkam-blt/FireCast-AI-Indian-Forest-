@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# Environment
+.env
+.env.*
+
+# Cache
+.cache.sqlite
+
+# YOLO training outputs
+artifacts/
+runs/
+
+# Model weights
+*.pt
+*.onnx
+
+# Large datasets
+datasets/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
